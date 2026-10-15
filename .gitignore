@@ -1,0 +1,59 @@
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+###### Virtual environments
+
+venv/
+.venv/
+
+# Python cache
+
+**pycache**/
+\*.py[cod]
+
+# Secrets
+
+.env
+.env.\*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Logs
+
+\*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Evaluation data
+
+src/models/saved_models/holdout_test.csv

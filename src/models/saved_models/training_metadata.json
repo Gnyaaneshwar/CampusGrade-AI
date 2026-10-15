@@ -1,0 +1,20 @@
+{
+    "best_cv_macro_f1": 0.8794727373430377,
+    "best_parameters": {
+        "model__n_estimators": 200,
+        "model__min_samples_split": 4,
+        "model__min_samples_leaf": 2,
+        "model__max_features": "sqrt",
+        "model__max_depth": 15
+    },
+    "classes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+    ],
+    "training_rows": 800,
+    "test_rows": 200,
+    "random_state": 42
+}
